@@ -5,3 +5,11 @@
 # PYTH
 # PYTHO
 # PYTHON
+
+word = input("Please enter a word: ")
+
+numLetters = len(word)
+
+for x in range (1, numLetters + 1):
+    letter = word[0:x]
+    print(letter)
